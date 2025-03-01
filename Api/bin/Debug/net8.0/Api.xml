@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Controllers.TareaController">
+            <summary>
+            Controlador de Tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Create(Domain.Dto.Request.TareaRequest)">
+            <summary>
+            Metodo para que el usuario guarde todas sus tareas
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Update(Domain.Dto.Request.TareaupdateRequest)">
+            <summary>
+            Metodo para que el usuario actualice el estado de una tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Delete(System.Int32)">
+            <summary>
+            Metodo para que el usuario elimine una tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.GetAll">
+            <summary>
+            Metodo para que el usuario obtenga todas las tareas
+            </summary>
+        </member>
+        <member name="T:ApiRest.Middlewares.ExceptionHandlingMiddleware">
+            <summary>
+            Middleware de comprobacion de los errores  o excepciones
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.ExceptionHandlingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Metodo para la generacion de los errores de la aplicacion
+            </summary>
+        </member>
+    </members>
+</doc>
