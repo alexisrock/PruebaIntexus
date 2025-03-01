@@ -1,5 +1,6 @@
 ﻿using Domain.Exceptions;
 using Newtonsoft.Json;
+using System.Diagnostics.CodeAnalysis;
 using System.Net;
 
 namespace ApiRest.Middlewares
@@ -7,6 +8,7 @@ namespace ApiRest.Middlewares
     /// <summary>
     /// Middleware de comprobacion de los errores  o excepciones
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public class ExceptionHandlingMiddleware
     {
         private readonly RequestDelegate _next;

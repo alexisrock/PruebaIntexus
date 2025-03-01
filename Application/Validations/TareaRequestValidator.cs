@@ -1,27 +1,29 @@
-﻿using Domain.Dto.Request;
+﻿using System.Diagnostics.CodeAnalysis;
+using Domain.Dto.Request;
 using FluentValidation;
 
 namespace Application.Validations
 {
+    [ExcludeFromCodeCoverage]
     public class TareaRequestValidator : AbstractValidator<TareaRequest>
     {
 
         public TareaRequestValidator()
         {
             RuleFor(x => x.NameTarea)
-               .NotEmpty().WithMessage("El userName es obligatorio")
-               .MinimumLength(2).WithMessage("El nombre debe tener al menos 2 caracteres");
+               .NotEmpty().WithMessage("El nombre de la tarea es obligatorio")
+               .MinimumLength(2).WithMessage("El nombre de la tarea debe tener al menos 2 caracteres");
 
             RuleFor(x => x.DescriptionTarea)
-                .NotEmpty().WithMessage("El password es obligatorio")
-                .MinimumLength(2).WithMessage("El password debe tener al menos 2 caracteres");
+                .NotEmpty().WithMessage("La descripcion de la tarea es obligatorio")
+                .MinimumLength(2).WithMessage("La descripcion de la tarea debe tener al menos 2 caracteres");
 
         }
 
 
     }
 
-
+    [ExcludeFromCodeCoverage]
     public class TareaUpdateRequestValidator : AbstractValidator<TareaupdateRequest>
     {
 

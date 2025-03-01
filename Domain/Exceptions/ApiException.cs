@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics.CodeAnalysis;
+
 
 namespace Domain.Exceptions
 {
-     public class ApiException : Exception
+    [ExcludeFromCodeCoverage]
+    public class ApiException : Exception
     {
         public int StatusCode { get; }
         public string Message { get; }

@@ -56,10 +56,13 @@ se utilizo la injeccion de dependencias de net 8, tambien tiene validacion con f
 <p>
      
 <ul> 
-        <li> Ubicar la carpeta que termina en Test </li> 
-        <li> luego ejecutar el comando "dotnet test" </li> 
-        <li> validar que los 33 test se ejecuten corrrectamente  </li> 
-        
+        <li> Tener instalado el generador de reportes de dotnet</li>
+        <li> si no se tiene instalado ejecutar el siguiente comando "dotnet tool install --global dotnet-reportgenerator-globaltool"</li>
+        <li> Ingresar a la carpeta que dice Test </li> 
+        <li> luego ejecutar el comando 'dotnet test --collect:"XPlat Code Coverage"' </li> 
+        <li> el xml que se genera se encuentra dentro de la carpeta   TestResults\0cf8398f-c6d1-4541-8d68-16dceedc3436 esta ultima puede variar con el nombre de coverage.cobertura </li> 
+        <li>  luego de generar el xml procedemos a generar el reporte con el comando 'reportgenerator -reports:TestResults/*/coverage.cobertura.xml -targetdir:CoverageReport -reporttypes:Html'  </li> 
+        <li> los resultados generados van hacer guardados en la carpeta CoverageReport el reporte que se debe validar es Api_TareaController y Application_TareaHandler que son las clases que se le realizaron los test </li>
 </ul>
 </p>
 

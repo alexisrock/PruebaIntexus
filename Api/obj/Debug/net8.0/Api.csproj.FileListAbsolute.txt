@@ -376,4 +376,3 @@ D:\Documentos\Projects\C#\PruebaIntexus\API\obj\Debug\net8.0\Api.xml
 D:\Documentos\Projects\C#\PruebaIntexus\API\obj\Debug\net8.0\Api.pdb
 D:\Documentos\Projects\C#\PruebaIntexus\API\obj\Debug\net8.0\Api.genruntimeconfig.cache
 D:\Documentos\Projects\C#\PruebaIntexus\API\obj\Debug\net8.0\ref\Api.dll
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

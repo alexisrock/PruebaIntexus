@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4080E5D-B793-4371-AFF9-3EC692E5ED42}|Test\\Test.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\test\\aplication\\tareahandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4080E5D-B793-4371-AFF9-3EC692E5ED42}|Test\\Test.csproj|solutionrelative:test\\aplication\\tareahandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4080E5D-B793-4371-AFF9-3EC692E5ED42}|Test\\Test.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\test\\api\\tareacontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4080E5D-B793-4371-AFF9-3EC692E5ED42}|Test\\Test.csproj|solutionrelative:test\\api\\tareacontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\service\\tareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\tareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TareaHandlerTest.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Test\\Aplication\\TareaHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Aplication\\TareaHandlerTest.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Test\\Aplication\\TareaHandlerTest.cs",
+              "RelativeToolTip": "Test\\Aplication\\TareaHandlerTest.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswG0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:32:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Middlewares\\ExceptionHandlingMiddleware.cs*",
+              "RelativeToolTip": "Api\\Middlewares\\ExceptionHandlingMiddleware.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T15:20:25.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TareaHandler.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TareaHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TareaHandler.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TareaHandler.cs",
+              "RelativeToolTip": "Application\\Service\\TareaHandler.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwD0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:53:35.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TareaControllerTest.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Test\\Api\\TareaControllerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Api\\TareaControllerTest.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Test\\Api\\TareaControllerTest.cs",
+              "RelativeToolTip": "Test\\Api\\TareaControllerTest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:47:31.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -110,7 +110,7 @@ namespace Application.Service
         {
             try
             {
-                if (request.IdTarea == 0)
+                if (request.IdTarea == 0|| request is null)
                 {
                     throw new ApiException("El id de la tarea no puede ser cero", (int)System.Net.HttpStatusCode.BadRequest);
                 }
