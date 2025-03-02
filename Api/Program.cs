@@ -29,13 +29,14 @@ builder.Services.AddMediatR(cfg => {
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularClient", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("*")  
-              .AllowAnyHeader()                      
-              .AllowAnyMethod();                     
+        policy.AllowAnyOrigin()   
+              .AllowAnyHeader()  
+              .AllowAnyMethod();  
     });
 });
+
 
 
 builder.Services.AddDbContext<PruebaContext>(options =>
@@ -57,7 +58,7 @@ app.MapHealthChecks("/health");
 app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthorization();
-
+app.UseCors("AllowAll");
 
 app.MapControllers();
 

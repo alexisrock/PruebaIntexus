@@ -64,7 +64,7 @@ namespace Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
-        public async Task<ActionResult> Delete([FromBody] int  id)
+        public async Task<ActionResult> Delete(int  id)
         {
             var response = await _sender.Send(new TareaDeleteRequest() { IdTarea = id });
             return Ok(response);

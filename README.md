@@ -28,7 +28,7 @@ se utilizo la injeccion de dependencias de net 8, tambien tiene validacion con f
 <p>
      
 <ul> 
-        <li> se debe tener instalado  eñ sdk de net8</li>
+        <li> se debe tener instalado  el sdk de net8</li>
         <li> tener instaldo el comando dotnet ef para correr las migraciones</li> 
         <li> si no se tiene instalado ejecutar el siguiente comando      "dotnet tool install --global dotnet-ef" </li> 
 

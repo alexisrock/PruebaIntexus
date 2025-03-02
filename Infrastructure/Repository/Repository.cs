@@ -20,9 +20,10 @@ namespace Infrastructure.Repository
         }
 
 
-        public Task Delete(object id)
+        public async Task Delete(object id)
         {
-            throw new NotImplementedException();
+            table.Remove((T)id);
+            await Save();
         }
         public async Task DeleteRange(T[] obj)
         {
