@@ -10,10 +10,13 @@ using System.Threading.Tasks;
 namespace Domain.Dto.Response
 {
     [ExcludeFromCodeCoverage]
-    public class UserResponse: BaseResponse
+    public class UserResponse
     {
         public int Id { get; set; }
-        public string? Nombre { get; set; }
-    
+        public string? NameUsuario { get; set; }
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+        public int Idrol { get; set; }
+
     }
 }

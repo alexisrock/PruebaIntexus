@@ -11,7 +11,11 @@ namespace Infrastructure
         public static IServiceCollection ConfigureRepository(this IServiceCollection services)
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped<ITareaRepository, TareaRepository>(); 
+            services.AddScoped<ITareaRepository, TareaRepository>();
+            services.AddScoped<IConfigurationRepository, ConfigurationRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IAsignacionTareaRepository, AsignacionTareaRepository>();
+            services.AddScoped<IStoreProcedureRepository, StoreProcedureRepository>();
             return services;
         }
     }

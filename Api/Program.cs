@@ -19,6 +19,34 @@ builder.Services.AddSwaggerGen(c =>
 {
 
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header using the Bearer scheme",
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+            {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                    }
+                },
+                Array.Empty<string>()
+            }
+
+    });
+
+
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
@@ -41,7 +69,11 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddDbContext<PruebaContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("BdEM")); 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BdEM"),
+    sqlServerOptionsAction: options =>
+    {
+        options.EnableRetryOnFailure();
+    });
  
 });
 
@@ -58,6 +90,7 @@ app.MapHealthChecks("/health");
 app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthorization();
+app.UseMiddleware<JwtMiddleware>();
 app.UseCors("AllowAll");
 
 app.MapControllers();

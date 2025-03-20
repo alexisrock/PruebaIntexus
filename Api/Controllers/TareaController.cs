@@ -1,4 +1,5 @@
-﻿using Domain.Dto.Request;
+﻿using ApiRest.Helpers;
+using Domain.Dto.Request;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ namespace Api.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TareaController : ControllerBase
     {
 

@@ -16,7 +16,6 @@ namespace Domain.Interfaces
         Task<List<T>> GetAll();
         Task<T?> GetById(object id);
         Task Insert(T obj);
-
         Task InsertRange(T[] obj);
         Task Update(T obj);
         Task Delete(object id);
