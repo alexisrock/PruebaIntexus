@@ -20,6 +20,7 @@ namespace Domain.Entities
         public int Id { get; set; }
         public string NameTarea { get; set; }
         public string NameUsuario { get; set; }
+        public string DescriptionTarea { get; set; }
         public bool IsCompleted { get; set; }
     }
 
@@ -27,7 +28,8 @@ namespace Domain.Entities
     public class TareasSinAsignar
     {
         public int IdTarea { get; set; }
-        public string NameTarea { get; set; }      
+        public string NameTarea { get; set; }
+        public string DescriptionTarea { get; set; }
         public bool IsCompleted { get; set; }
     }
 }

@@ -19,6 +19,7 @@ namespace Domain.Dto.Response
         public int Id { get; set; }
         public string? NameTarea { get; set; }
         public string? NameUsuario { get; set; }
+        public string DescriptionTarea { get; set; }
         public bool IsCompleted { get; set; }
     }
 
@@ -27,6 +28,7 @@ namespace Domain.Dto.Response
     {
         public int Id { get; set; }
         public string NameTarea { get; set; }
+        public string DescriptionTarea { get; set; }
         public bool IsCompleted { get; set; }
     }
 

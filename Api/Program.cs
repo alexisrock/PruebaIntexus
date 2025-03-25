@@ -18,7 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
 
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api Homework", Version = "v1" });
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -55,16 +55,17 @@ builder.Services.AddMediatR(cfg => {
     cfg.RegisterServicesFromAssemblies(typeof(TareaHandler).GetTypeInfo().Assembly);
 });
 
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowAngular", policy =>
     {
-        policy.AllowAnyOrigin()   
-              .AllowAnyHeader()  
-              .AllowAnyMethod();  
+        policy.WithOrigins("http://localhost:4200") // 👈 Permite Angular
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials(); // Solo si usas autenticación basada en cookies o sesiones
     });
 });
-
 
 
 builder.Services.AddDbContext<PruebaContext>(options =>
@@ -83,7 +84,7 @@ builder.Services.ConfigureRepository();
 builder.Services.ConfigureServices();
 var app = builder.Build();
 
-
+app.UseCors("AllowAngular");
 app.UseSwagger();
 app.UseSwaggerUI();
 app.MapHealthChecks("/health");
@@ -91,7 +92,6 @@ app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthorization();
 app.UseMiddleware<JwtMiddleware>();
-app.UseCors("AllowAll");
 
 app.MapControllers();
 

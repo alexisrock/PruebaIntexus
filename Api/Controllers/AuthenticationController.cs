@@ -39,7 +39,7 @@ namespace ApiRest.Controllers
         /// Request example:
         ///  
         ///     {
-        ///        "UserName": "prueba",
+        ///        "Email": "prueba@correo.com",
         ///        "Password": "cHJ1RUJB"
         /// 
         ///     }

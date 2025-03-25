@@ -19,7 +19,9 @@ namespace Domain.Dto.Request
     [ExcludeFromCodeCoverage]
     public class TareaupdateRequest : IRequest<BaseResponse>
     {
-        public int IdTarea { get; set; }       
+        public int IdTarea { get; set; }
+        public string NameTarea { get; set; } = string.Empty;
+        public string DescriptionTarea { get; set; } = string.Empty;
         public bool IsCompleted { get; set; }
 
     }
@@ -33,7 +35,6 @@ namespace Domain.Dto.Request
     [ExcludeFromCodeCoverage]
     public class TareaGetRequest : IRequest<List<TareaResponse>>
     {   
-    }
-
+    }  
 
 }

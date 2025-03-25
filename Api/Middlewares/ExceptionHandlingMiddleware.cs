@@ -36,7 +36,7 @@ namespace ApiRest.Middlewares
             {
                 await HandleExceptionAsync(context, ex.StatusCode, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 await HandleExceptionAsync(context, (int)HttpStatusCode.InternalServerError, "Ocurrió un error inesperado.");
             }

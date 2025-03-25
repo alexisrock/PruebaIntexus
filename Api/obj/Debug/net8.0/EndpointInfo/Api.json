@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Api",
+    "title": "Api Homework",
     "version": "v1"
   },
   "paths": {
@@ -344,7 +344,7 @@
           "Authentication"
         ],
         "summary": "Metodo de autenticacion",
-        "description": "Request example:\r\n \r\n    {\r\n       \"UserName\": \"prueba\",\r\n       \"Password\": \"cHJ1RUJB\"\r\n\r\n    }",
+        "description": "Request example:\r\n \r\n    {\r\n       \"Email\": \"prueba@correo.com\",\r\n       \"Password\": \"cHJ1RUJB\"\r\n\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
@@ -959,33 +959,7 @@
         "summary": "Metodo para la obtener todos los usuario",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/UserResponse"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/UserResponse"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/UserResponse"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           },
           "400": {
             "description": "Bad Request",
@@ -1099,6 +1073,10 @@
             "type": "string",
             "nullable": true
           },
+          "DescriptionTarea": {
+            "type": "string",
+            "nullable": true
+          },
           "IsCompleted": {
             "type": "boolean"
           }
@@ -1130,6 +1108,10 @@
             "format": "int32"
           },
           "NameTarea": {
+            "type": "string",
+            "nullable": true
+          },
+          "DescriptionTarea": {
             "type": "string",
             "nullable": true
           },
@@ -1172,6 +1154,10 @@
           "Token": {
             "type": "string",
             "nullable": true
+          },
+          "IdRol": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

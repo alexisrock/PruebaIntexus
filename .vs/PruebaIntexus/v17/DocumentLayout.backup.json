@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\containerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\containerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\service\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\service\\asignartareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\asignartareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\controllers\\asignartareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\controllers\\asignartareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\service\\tareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\tareahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\service\\usuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\usuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\domain\\entities\\asignartareaidusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\asignartareaidusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\infrastructure\\pruebacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\pruebacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\application\\transformdto\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\transformdto\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\infrastructure\\repository\\asignaciontarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\asignaciontarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\domain\\dto\\response\\asignartareaidusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|solutionrelative:domain\\dto\\response\\asignartareaidusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\domain\\dto\\request\\asignartarearequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|solutionrelative:domain\\dto\\request\\asignartarearequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|d:\\documentos\\projects\\c#\\pruebaintexus\\domain\\entities\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,119 +51,115 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContainerID.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\ContainerID.cs",
-              "RelativeDocumentMoniker": "Application\\ContainerID.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\ContainerID.cs",
-              "RelativeToolTip": "Application\\ContainerID.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TokenHandler.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TokenHandler.cs",
+              "RelativeToolTip": "Application\\Service\\TokenHandler.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAQwKQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:19:50.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PruebaContext.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Infrastructure\\PruebaContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\PruebaContext.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Infrastructure\\PruebaContext.cs",
-              "RelativeToolTip": "Infrastructure\\PruebaContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwB4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:12:12.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TareaController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\TareaController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\TareaController.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\TareaController.cs",
-              "RelativeToolTip": "Api\\Controllers\\TareaController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:05:08.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AsignacionTareaRepository.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Infrastructure\\Repository\\AsignacionTareaRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\AsignacionTareaRepository.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Infrastructure\\Repository\\AsignacionTareaRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\AsignacionTareaRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:04:44.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAcwHsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T01:57:21.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsignarTareaController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\AsignarTareaController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\AsignarTareaController.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\AsignarTareaController.cs",
-              "RelativeToolTip": "Api\\Controllers\\AsignarTareaController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAmwGkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T01:50:03.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AsignarTareaIdUsuario.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\AsignarTareaIdUsuario.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\AsignarTareaIdUsuario.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\AsignarTareaIdUsuario.cs",
-              "RelativeToolTip": "Domain\\Entities\\AsignarTareaIdUsuario.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T00:44:20.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AsignarTareaRequest.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Dto\\Request\\AsignarTareaRequest.cs",
-              "RelativeDocumentMoniker": "Domain\\Dto\\Request\\AsignarTareaRequest.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Dto\\Request\\AsignarTareaRequest.cs",
-              "RelativeToolTip": "Domain\\Dto\\Request\\AsignarTareaRequest.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAhwCQAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:13:14.813Z",
+              "WhenOpened": "2025-03-25T01:37:00.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AsignarTareaHandler.cs",
-              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\AsignarTareaHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\AsignarTareaHandler.cs",
-              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\AsignarTareaHandler.cs",
-              "RelativeToolTip": "Application\\Service\\AsignarTareaHandler.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAvwI4AAAAIAAAAAAAAAA==",
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:08:20.212Z",
+              "WhenOpened": "2025-03-25T01:34:29.553Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAqwIAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:30:56.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioHandler.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\UsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\UsuarioHandler.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\UsuarioHandler.cs",
+              "RelativeToolTip": "Application\\Service\\UsuarioHandler.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAwLQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:30:40.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TareaHandler.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TareaHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TareaHandler.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\Service\\TareaHandler.cs",
+              "RelativeToolTip": "Application\\Service\\TareaHandler.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAcwBgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:39:32.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AsignarTareaIdUsuario.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\AsignarTareaIdUsuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AsignarTareaIdUsuario.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\AsignarTareaIdUsuario.cs",
+              "RelativeToolTip": "Domain\\Entities\\AsignarTareaIdUsuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:33:06.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transform.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\TransformDto\\Transform.cs",
+              "RelativeDocumentMoniker": "Application\\TransformDto\\Transform.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Application\\TransformDto\\Transform.cs",
+              "RelativeToolTip": "Application\\TransformDto\\Transform.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAhwGsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:32:26.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\Tarea.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Tarea.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Entities\\Tarea.cs",
+              "RelativeToolTip": "Domain\\Entities\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:31:57.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AsignarTareaIdUsuarioResponse.cs",
+              "DocumentMoniker": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Dto\\Response\\AsignarTareaIdUsuarioResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Dto\\Response\\AsignarTareaIdUsuarioResponse.cs",
+              "ToolTip": "D:\\Documentos\\Projects\\C#\\PruebaIntexus\\Domain\\Dto\\Response\\AsignarTareaIdUsuarioResponse.cs",
+              "RelativeToolTip": "Domain\\Dto\\Response\\AsignarTareaIdUsuarioResponse.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:31:30.563Z"
             }
           ]
         }

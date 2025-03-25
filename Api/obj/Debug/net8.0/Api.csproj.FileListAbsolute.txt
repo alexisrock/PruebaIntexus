@@ -187,14 +187,6 @@ C:\Users\ALEXIS\source\repos\PruebaIntexus\Api\obj\Debug\net8.0\Api.pdb
 C:\Users\ALEXIS\source\repos\PruebaIntexus\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\ALEXIS\source\repos\PruebaIntexus\Api\obj\Debug\net8.0\ref\Api.dll
 C:\Users\ALEXIS\source\repos\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.sourcelink.json
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\appsettings.Development.json
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\appsettings.json
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\Api.staticwebassets.endpoints.json
@@ -389,6 +381,14 @@ D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\Infrastructure.dll
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\Application.pdb
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\Infrastructure.pdb
 D:\Documentos\Projects\C#\PruebaIntexus\Api\bin\Debug\net8.0\Domain.pdb
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.sourcelink.json
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\scopedcss\bundle\Api.styles.css
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -399,7 +399,6 @@ D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets\msb
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Api.props
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Api.props
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.csproj.Up2Date
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.dll
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\refint\Api.dll

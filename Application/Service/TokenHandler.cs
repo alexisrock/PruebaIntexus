@@ -39,16 +39,16 @@ namespace Application.Services
 
         public async Task<TokenResponse> Handle(TokenCreateRequest request, CancellationToken cancellationToken)
         {
-            var UserTokenResponse = new TokenResponse();
+            TokenResponse UserTokenResponse;
             try
             {
 
 
                 var result = await validator.ValidateAsync(request);
-                if (!result.IsValid)
+                if (!result.IsValid && result is null)
                 {
 
-                    throw new ApiException(result.Errors.ToString(), (int)System.Net.HttpStatusCode.Unauthorized);
+                    throw new ApiException(result.Errors.ToString() ?? "", (int)System.Net.HttpStatusCode.Unauthorized);
                 }
 
 
@@ -81,6 +81,7 @@ namespace Application.Services
         {
             TokenResponse UserTokenResponse = new();        
             UserTokenResponse.Token = await GenerateToken(user.NameUsuario);
+            UserTokenResponse.IdRol = user.Idrol;
             return UserTokenResponse;
         }
         private async Task<Usuario?> ValidateUserName(string? correo)
@@ -161,7 +162,7 @@ namespace Application.Services
                 return isOk;    
             }
             catch (Exception ex)
-            {
+               {
                  
                 throw new ApiException("Ocurrió un error inesperado", (int)System.Net.HttpStatusCode.InternalServerError);
             }          

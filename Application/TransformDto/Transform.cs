@@ -23,6 +23,8 @@ namespace Application.TransformDto
         internal static Tarea MapperTareaUpdate(this Tarea tarea, TareaupdateRequest request)
         {
             tarea.IsCompleted = request.IsCompleted;
+            tarea.NameTarea = request.NameTarea;
+            tarea.DescriptionTarea = request.DescriptionTarea;
             return tarea;
         }
         internal static List<TareaResponse> MapperListTarea(this IEnumerable<Tarea> listTarea)
@@ -105,6 +107,7 @@ namespace Application.TransformDto
                     response.Id = item.Id;
                     response.NameTarea = item.NameTarea;
                     response.NameUsuario = item.NameUsuario;
+                    response.DescriptionTarea = item.DescriptionTarea;
                     response.IsCompleted = item.IsCompleted;
                     list.Add(response);
                 });
@@ -122,7 +125,8 @@ namespace Application.TransformDto
                 {
                     var response = new TareasSinAsignarResponse();
                     response.Id = item.IdTarea;
-                    response.NameTarea = item.NameTarea;                     
+                    response.NameTarea = item.NameTarea; 
+                    response.DescriptionTarea = item.DescriptionTarea;
                     response.IsCompleted = item.IsCompleted;
                     list.Add(response);
                 });

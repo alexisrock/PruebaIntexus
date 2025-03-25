@@ -22,7 +22,9 @@ namespace Application.Service
     public class TareaHandler : IRequestHandler<TareaRequest, BaseResponse>,
         IRequestHandler<TareaupdateRequest, BaseResponse>,
         IRequestHandler<TareaDeleteRequest, BaseResponse>,
-         IRequestHandler<TareaGetRequest, List<TareaResponse>>
+        IRequestHandler<TareaGetRequest, List<TareaResponse>>
+      
+
 
 
 
@@ -149,8 +151,8 @@ namespace Application.Service
                 throw new ApiException("Ocurrió un error inesperado", (int)System.Net.HttpStatusCode.InternalServerError);
             }
 
-
-
         }
+
+     
     }
 }

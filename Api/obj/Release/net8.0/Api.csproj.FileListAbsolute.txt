@@ -179,7 +179,6 @@ D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\staticwebassets\m
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.Api.props
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Api.props
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\staticwebassets.pack.json
-D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\Api.csproj.Up2Date
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\Api.dll
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Release\net8.0\refint\Api.dll
